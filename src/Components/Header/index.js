@@ -5,22 +5,16 @@ import "./style.css"
 function Header() {
     return (
         <header>
-            <ul className="navbar">
-                <li>
-                    <div className="logo">
-                        <img src={logo} alt="Jüssi Logo" />
-                        <p>
-                            The Business<span>*</span> Agency
-                        </p>
-                    </div>
-                </li>
-                <li className="navbar-link">
-                    <a href="/">Nossas Soluções</a>
-                </li>
-                <li className="navbar-link">
-                    <a href="/">Conheça a Jüssi</a>
-                </li>
-            </ul>
+            <nav className="navbar">
+                <div className="navbar-item logo">
+                    <img src={logo} alt="Jüssi Logo" />
+                    <p>
+                        The Business<span>*</span> Agency
+                    </p>
+                </div>
+                <a className="navbar-item" href="/">Nossas Soluções</a>
+                <a className="navbar-item" href="/">Conheça a Jüssi</a>
+            </nav>
 
         </header>
     );
