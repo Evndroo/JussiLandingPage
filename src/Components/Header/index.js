@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo.svg';
+import { ShoppingCart, Search }  from "@material-ui/icons"
 import "./style.css"
 
 function Header() {
@@ -15,7 +16,14 @@ function Header() {
                 <a className="navbar-item" href="/">Nossas Soluções</a>
                 <a className="navbar-item" href="/">Conheça a Jüssi</a>
             </nav>
-
+            <div className="navmenu">
+                <div className="navbar-item search-bar">
+                    <input type="text" name="search" placeholder="Buscar" />
+                    <Search/>
+                </div>
+                <a className="navbar-item" href="/">Login</a>
+                <ShoppingCart/>
+            </div>
         </header>
     );
 }
