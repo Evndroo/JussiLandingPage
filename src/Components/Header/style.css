@@ -1,0 +1,40 @@
+header{
+    padding: 1rem;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar > li:nth-child(2),
+.navbar > li:first-child{
+    margin-right: 1.5rem;
+}
+
+.logo{
+    display: flex;
+    
+}
+
+.logo > img {
+    width: 8rem;
+    margin-right: 0.7rem;
+}
+
+.logo > p {
+    max-width: 8ch;
+    font-weight: 500;
+    line-height: 1rem;
+} 
+
+.logo > p > span {
+    color: var(--green-jussi);
+}
+
+.navbar-link > a{
+    color: black;
+    text-decoration: none;
+
+}
