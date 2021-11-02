@@ -11,12 +11,7 @@ function Header() {
         <header>
             <nav className="navbar">
                 {/*TODO: Adicionar onClick para redirecionar para Home */}
-                <div className="navbar-item logo">
-                    <img src={logo} alt="Jüssi Logo" />
-                    <p>
-                        The Business<span>*</span> Agency
-                    </p>
-                </div>
+                <img className="navbar-item logo" src={logo} alt="Jüssi Logo" />                    
                 <a className="navbar-item" href={jussiServicesLinks} data-testid="solutionsLink">Nossas Soluções</a>
                 <a className="navbar-item" href={aboutJussiLink} data-testid="aboutLink">Conheça a Jüssi</a>
             </nav>
