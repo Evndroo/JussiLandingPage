@@ -1,0 +1,25 @@
+.promotion-card{
+    width: 10rem;
+    padding: 1.5rem 0.7rem 1rem 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 5px;
+    min-height: 14rem;
+    border-radius:0.7rem;
+    box-shadow: 3px 2px 15px gray;
+    margin-right: 5px;
+}
+
+.promotion-card img{
+    max-width: 100%;
+}
+
+.promotion-card button{
+    color: var(--pink-jussi);
+    border: 1px solid var(--pink-jussi);
+    background-color: transparent;
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
+}

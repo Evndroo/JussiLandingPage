@@ -1,0 +1,60 @@
+.cta{
+    background: var(--green-juss);
+    background-color: var(--green-jussi);
+    height: 87.5vh;
+    display: flex;
+    padding: 0rem 5rem;
+}
+
+.cta-content, .cta-products{
+    width: 100%;
+    flex-grow: 1;
+}
+
+.cta-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cta-content h1{
+    width: 16ch;
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 1.3em;
+    letter-spacing: 0.1rem;
+    font-family: Barlow;
+}
+
+.cta-content p {
+    max-width: 48ch;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin: 1.5rem 0;
+}
+
+.cta-content button{
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    border: solid 1px black;
+    border-radius: 8px;
+}
+
+.cta-products{
+    display: flex;
+    align-items: center;
+    padding-top: 4rem;
+    z-index: 0;
+}
+
+.cta-products .promotion-card:nth-child(2){
+    align-self: flex-start;
+    margin-left: -3rem;
+    z-index: 1;
+}
+
+.cta-products .promotion-card:nth-child(3){
+    margin-top: 6rem;
+    margin-left: -5rem;
+}
