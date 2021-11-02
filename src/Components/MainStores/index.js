@@ -15,10 +15,18 @@ function MainStores() {
         <div className="main-stores">
             <p>Nossas principais lojas VTEX</p>
             <ArrowRight/>
-            <img src={brastempLogo} alt="Logo da empresa Compra Certa"/>
-            <img src={compraCertaLogo} alt="Logo da empresa Compra Certa"/>
-            <img src={consulLogo} alt="Logo da empresa Consul"/>
-            <img src={theBarLogo} alt="Logo da empresa The bar"/>
+            <a href="https://www.brastemp.com.br/">
+                <img src={brastempLogo} alt="Logo da empresa Compra Certa"/>
+            </a>
+            <a href="https://www.compracerta.com.br/">
+                <img src={compraCertaLogo} alt="Logo da empresa Compra Certa"/>
+            </a>
+            <a href="https://loja.consul.com.br/">
+                <img src={consulLogo} alt="Logo da empresa Consul"/>
+            </a>
+            <a href="https://br.thebar.com/">
+                <img src={theBarLogo} alt="Logo da empresa The bar"/>
+            </a>
         </div> 
     );
 }
