@@ -5,7 +5,6 @@ import "./style.css"
 
 function Header() {
     const jussiServicesLinks = "https://jussi.com.br/services.html";
-    const aboutJussiLink = "https://jussi.com.br/about.html";
 
     return (
         <header>
