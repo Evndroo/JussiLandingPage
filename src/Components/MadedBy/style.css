@@ -1,0 +1,37 @@
+.maded-by-jussi {
+    min-height: 80vh;
+    background-color: var(--pink-jussi);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.maded-by-jussi h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50ch;
+}
+
+.maded-by-jussi span {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.jussi-email{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: white;
+}
+
+.jussi-email a{
+    text-decoration: none;
+    color: white;
+}
