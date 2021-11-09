@@ -1,0 +1,20 @@
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+}
+
+footer img {
+    max-width: 8rem;
+}
+
+footer div{
+    display: flex;
+}
+
+footer div svg{
+    color: white;
+    margin-left: 0.5rem;
+}

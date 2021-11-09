@@ -5,6 +5,7 @@ import Header from '../../Components/Header';
 import MainStores from '../../Components/MainStores';
 import MadedBy from '../../Components/MadedBy';
 import Contact from '../../Components/Contact';
+import Footer from '../../Components/Footer';
 import "./style.css"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <MadedBy/>
       <Contact/>
+      <Footer/>
     </>
   );
 }
