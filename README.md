@@ -23,6 +23,12 @@ $ npm start
 
 **OBS:** caso o site não abra no seu navegador acesse *http://localhost:3000/*
 
+Para rodar os testes automatizados execute o comando:
+
+```
+$ npm test
+```
+
 ___
 
 ## TODO's:
