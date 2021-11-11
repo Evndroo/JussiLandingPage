@@ -4,7 +4,6 @@ import { ShoppingCart, Search }  from "@material-ui/icons"
 import "./style.css"
 
 function Header() {
-    const jussiServicesLinks = "https://jussi.com.br/services.html";
 
     return (
         <header>
