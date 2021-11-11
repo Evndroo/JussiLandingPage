@@ -14,7 +14,7 @@ describe("O componente Header", () => {
     it("Deve possuir um link para tela de soluções", () =>{
         render(<Header/>)
 
-        const jussiServicesLinks = "https://jussi.com.br/services.html";
+        const jussiServicesLinks = "#our-solutions";
         const link = screen.getByTestId("solutionsLink");
 
         expect(link).toBeInTheDocument();

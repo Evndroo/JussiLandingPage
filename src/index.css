@@ -5,6 +5,7 @@
     padding: 0;
     --green-jussi: #03FFA5;
     --pink-jussi: #EE0E7D;
+    scroll-behavior: smooth;
 }
 
 body {

@@ -7,6 +7,7 @@ import MadedBy from '../../Components/MadedBy';
 import Contact from '../../Components/Contact';
 import Footer from '../../Components/Footer';
 import "./style.css"
+import OurSolutions from '../../Components/OurSolutions';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <CallToAction/>
       <MainStores/>
+      <OurSolutions/> 
       <About/>
       <MadedBy/>
       <Contact/>
