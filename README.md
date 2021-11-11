@@ -40,3 +40,5 @@ ___
     - OBS: com base na url: `https://api-mobilespecs.azharimm.site/v2/search?query={query}`
 - [ ] Adicionar testes automatizados da funcionalidade de pesquisa
 - [ ] Criar tela de detalhes da solução.
+- [ ] Adicionar animações na tela
+- [ ] Aplicar reutilização de CSS
